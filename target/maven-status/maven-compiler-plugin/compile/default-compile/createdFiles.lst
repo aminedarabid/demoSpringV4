@@ -1,0 +1,6 @@
+com\objis\demospring\service\IformationService.class
+com\objis\demospring\demospringdata\App.class
+com\objis\demospring\dao\FormationDao.class
+com\objis\demospring\domaine\Formation.class
+com\objis\demospring\dao\IFormationDao.class
+com\objis\demospring\service\FormationService.class
