@@ -20,18 +20,20 @@ public class App
     public static void main( String[] args )
     {
 		 try{
-			 Formation formation = new Formation("GTM");
-			 
-			// TODO Auto-generated method stub
-			// 1. Chargement du conteneur en 4.0.0 Spring
-			ApplicationContext appContext = new ClassPathXmlApplicationContext("spring-data.xml");
-	
-			// 2. Recuperation d'un bean du conteneur
-			IformationService formationService = (IformationService) appContext.getBean("formationService");
-	
-			// 3. Manipulation du bean avec injection de dependances
-			//formationService.creerformation(formation);
-			logger.info("Chef Developpeur: ");
+			/*
+			 * Formation formation = new Formation("GTM");
+			 * 
+			 * // TODO Auto-generated method stub // 1. Chargement du conteneur en 4.0.0
+			 * Spring ApplicationContext appContext = new
+			 * ClassPathXmlApplicationContext("spring-data.xml");
+			 * 
+			 * // 2. Recuperation d'un bean du conteneur IformationService formationService
+			 * = (IformationService) appContext.getBean("formationService");
+			 * 
+			 * // 3. Manipulation du bean avec injection de dependances
+			 * //formationService.creerformation(formation);
+			 * logger.info("Chef Developpeur: ");
+			 */
 			
 		 } catch (Exception e) {
 			 e.printStackTrace();
